@@ -822,7 +822,14 @@ spiceprefix=X
 m=1}
 C {vdd.sym} 920 -1220 0 0 {name=l3 lab=VDD}
 C {vdd.sym} 1800 -1360 0 0 {name=l4 lab=VDD}
-C {title-3.sym} 0 0 0 0 {name=l5 author="UFJF On Chip" rev=1.0 lock=true}
+C {title-3.sym} 0 0 0 0 {name=F1
+title="FDDA with Native MOS CMFB"
+author="UFJF On Chip"
+rev=1.0
+page="1"
+pages="1"
+lock=true
+}
 C {lab_wire.sym} 1240 -590 0 0 {name=p8 sig_type=std_logic lab=Vcm}
 C {vdd.sym} 740 -800 0 0 {name=l6 lab=VDD}
 C {vdd.sym} 1820 -800 0 0 {name=l7 lab=VDD}
